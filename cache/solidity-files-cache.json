@@ -1,0 +1,3600 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/arman/erc20-staking-app/staking-contract/contracts/Own.sol": {
+      "lastModificationDate": 1682723284478,
+      "contentHash": "b8d3c71eedb21e21c8623d32a0a7f2dd",
+      "sourceName": "contracts/Own.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Own"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/base/ERC20Base.sol": {
+      "lastModificationDate": 1682722800195,
+      "contentHash": "0b0fcb3d7ba29fa816955a444339bb66",
+      "sourceName": "@thirdweb-dev/contracts/base/ERC20Base.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../openzeppelin-presets/token/ERC20/extensions/ERC20Permit.sol",
+        "../extension/ContractMetadata.sol",
+        "../extension/Multicall.sol",
+        "../extension/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Base"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/ContractMetadata.sol": {
+      "lastModificationDate": 1682722800177,
+      "contentHash": "4abf6593fc98196e081b41d1a4b4c28f",
+      "sourceName": "@thirdweb-dev/contracts/extension/ContractMetadata.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IContractMetadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ContractMetadata"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/Ownable.sol": {
+      "lastModificationDate": 1682722800225,
+      "contentHash": "d6f9e8f44e2fb7e49f6e5d8bcc91b719",
+      "sourceName": "@thirdweb-dev/contracts/extension/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/Multicall.sol": {
+      "lastModificationDate": 1682722800224,
+      "contentHash": "5271b1c2e3b15bdacd682c3f2e372cea",
+      "sourceName": "@thirdweb-dev/contracts/extension/Multicall.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../lib/TWAddress.sol",
+        "./interface/IMulticall.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Multicall"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/token/ERC20/extensions/ERC20Permit.sol": {
+      "lastModificationDate": 1682722800197,
+      "contentHash": "1f0f229839fbd79338169def4055077b",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/token/ERC20/extensions/ERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../../eip/interface/IERC20Permit.sol",
+        "../ERC20.sol",
+        "../../../utils/cryptography/EIP712.sol",
+        "../../../utils/cryptography/ECDSA.sol",
+        "../../../utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Permit"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IContractMetadata.sol": {
+      "lastModificationDate": 1682722800208,
+      "contentHash": "6cffce9927c3dacc15ccc20ee5a1d89e",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IContractMetadata.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IContractMetadata"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IOwnable.sol": {
+      "lastModificationDate": 1682722800218,
+      "contentHash": "409555a090d8b04837ea27fc6e1818f9",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/lib/TWAddress.sol": {
+      "lastModificationDate": 1682722800238,
+      "contentHash": "5a657561820dab6efd6613a48ae33f51",
+      "sourceName": "@thirdweb-dev/contracts/lib/TWAddress.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TWAddress"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IMulticall.sol": {
+      "lastModificationDate": 1682722800216,
+      "contentHash": "f940a79d3555cb15335797309e63f5d2",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IMulticall.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IMulticall"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/interface/IERC20Permit.sol": {
+      "lastModificationDate": 1682722800213,
+      "contentHash": "fb77f144244b9ab12533aa6ce85ef8c5",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/utils/Counters.sol": {
+      "lastModificationDate": 1682722800178,
+      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/utils/cryptography/EIP712.sol": {
+      "lastModificationDate": 1682722800188,
+      "contentHash": "161aae4dc1450371d0f324488f66a9cf",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/utils/cryptography/EIP712.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ECDSA.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/utils/cryptography/ECDSA.sol": {
+      "lastModificationDate": 1682722800186,
+      "contentHash": "037a2a96e92e72c79689bdc1a8258b72",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/utils/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../lib/TWStrings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1682722800195,
+      "contentHash": "137e1acf52c2bdf83ee49451953fe48d",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../eip/interface/IERC20.sol",
+        "../../../eip/interface/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/lib/TWStrings.sol": {
+      "lastModificationDate": 1682722800240,
+      "contentHash": "09fbe7efe83e40950c3206296b2272ee",
+      "sourceName": "@thirdweb-dev/contracts/lib/TWStrings.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TWStrings"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/interface/IERC20.sol": {
+      "lastModificationDate": 1682722800213,
+      "contentHash": "a64068f27c7945026e1f668f2ad99540",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/interface/IERC20Metadata.sol": {
+      "lastModificationDate": 1682722800213,
+      "contentHash": "a4ee60b35795160c5ef04071ddf1d1de",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/utils/Context.sol": {
+      "lastModificationDate": 1682722800177,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/base/Staking20Base.sol": {
+      "lastModificationDate": 1682722800234,
+      "contentHash": "0120d19571b437deea2eaed38140b609",
+      "sourceName": "@thirdweb-dev/contracts/base/Staking20Base.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../extension/ContractMetadata.sol",
+        "../extension/Multicall.sol",
+        "../extension/Ownable.sol",
+        "../extension/Staking20.sol",
+        "../eip/interface/IERC20.sol",
+        "../eip/interface/IERC20Metadata.sol",
+        "../lib/CurrencyTransferLib.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Staking20Base"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/lib/CurrencyTransferLib.sol": {
+      "lastModificationDate": 1682722800179,
+      "contentHash": "730e96a157131f935fea56910171eb20",
+      "sourceName": "@thirdweb-dev/contracts/lib/CurrencyTransferLib.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IWETH.sol",
+        "../openzeppelin-presets/token/ERC20/utils/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CurrencyTransferLib"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/Staking20.sol": {
+      "lastModificationDate": 1682722800234,
+      "contentHash": "d873e92b8698f95d1f4209d49507af73",
+      "sourceName": "@thirdweb-dev/contracts/extension/Staking20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../openzeppelin-presets/security/ReentrancyGuard.sol",
+        "../openzeppelin-presets/utils/math/SafeMath.sol",
+        "../eip/interface/IERC20.sol",
+        "../lib/CurrencyTransferLib.sol",
+        "./interface/IStaking20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "Staking20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/interfaces/IWETH.sol": {
+      "lastModificationDate": 1682722800223,
+      "contentHash": "9d442e36e038beed704d10414faeac9e",
+      "sourceName": "@thirdweb-dev/contracts/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/token/ERC20/utils/SafeERC20.sol": {
+      "lastModificationDate": 1682722800231,
+      "contentHash": "5168fb5df573a980a7258ad111d4ffe2",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../../eip/interface/IERC20.sol",
+        "../../../../lib/TWAddress.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/security/ReentrancyGuard.sol": {
+      "lastModificationDate": 1682722800230,
+      "contentHash": "3f649a1a493ae2df28274ac4319191e0",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IStaking20.sol": {
+      "lastModificationDate": 1682722800221,
+      "contentHash": "4b9f78bbc6f10f175a1cc88df5660daa",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IStaking20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "IStaking20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/utils/math/SafeMath.sol": {
+      "lastModificationDate": 1682722800232,
+      "contentHash": "2337f0279507b5edf14a07067adf0d05",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/token/TokenERC20.sol": {
+      "lastModificationDate": 1682722800236,
+      "contentHash": "573d04b3780e61dbe4088303faf389e9",
+      "sourceName": "@thirdweb-dev/contracts/token/TokenERC20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/token/ITokenERC20.sol",
+        "../interfaces/IThirdwebContract.sol",
+        "../extension/interface/IPlatformFee.sol",
+        "../extension/interface/IPrimarySale.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/access/AccessControlEnumerableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/cryptography/draft-EIP712Upgradeable.sol",
+        "../openzeppelin-presets/metatx/ERC2771ContextUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/MulticallUpgradeable.sol",
+        "../lib/CurrencyTransferLib.sol",
+        "../lib/FeeType.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "TokenERC20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/interfaces/IThirdwebContract.sol": {
+      "lastModificationDate": 1682722800221,
+      "contentHash": "4e3673ef712aa57a4e395b3e4951b2b8",
+      "sourceName": "@thirdweb-dev/contracts/interfaces/IThirdwebContract.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "IThirdwebContract"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol": {
+      "lastModificationDate": 1682722800148,
+      "contentHash": "1453fc85149da6598faf08c46b88182d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuardUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/MulticallUpgradeable.sol": {
+      "lastModificationDate": 1682722800144,
+      "contentHash": "1eb72a218b5860fad4bce0655c77945a",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/MulticallUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AddressUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MulticallUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/lib/FeeType.sol": {
+      "lastModificationDate": 1682722800203,
+      "contentHash": "9442bb86b49112338843b9cfcf41964b",
+      "sourceName": "@thirdweb-dev/contracts/lib/FeeType.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "FeeType"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/access/AccessControlEnumerableUpgradeable.sol": {
+      "lastModificationDate": 1682722800065,
+      "contentHash": "141240d6632637f38267138453986cb4",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/AccessControlEnumerableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAccessControlEnumerableUpgradeable.sol",
+        "./AccessControlUpgradeable.sol",
+        "../utils/structs/EnumerableSetUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControlEnumerableUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/interfaces/token/ITokenERC20.sol": {
+      "lastModificationDate": 1682722800222,
+      "contentHash": "0d251f6c01c5c448731b8e0e247c2dc9",
+      "sourceName": "@thirdweb-dev/contracts/interfaces/token/ITokenERC20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "ITokenERC20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IPlatformFee.sol": {
+      "lastModificationDate": 1682722800219,
+      "contentHash": "9d11624ae6d065c3f96be0b66ae493b2",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IPlatformFee.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPlatformFee"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol": {
+      "lastModificationDate": 1682722800097,
+      "contentHash": "b3e120a8002394aabbbc467369cd7390",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../StringsUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ECDSAUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IPrimarySale.sol": {
+      "lastModificationDate": 1682722800219,
+      "contentHash": "76a90c244272f044646bcabccc707d3d",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IPrimarySale.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPrimarySale"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/cryptography/draft-EIP712Upgradeable.sol": {
+      "lastModificationDate": 1682722800091,
+      "contentHash": "7694c4cb5fd0f010d9a3c6aab3f62a9f",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/cryptography/draft-EIP712Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EIP712Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/metatx/ERC2771ContextUpgradeable.sol": {
+      "lastModificationDate": 1682722800198,
+      "contentHash": "a9423130fff5164d4c1807bc2344099c",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/metatx/ERC2771ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "ERC2771ContextUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol": {
+      "lastModificationDate": 1682722800108,
+      "contentHash": "8c58ae2b48b49da0634bc2db620540cf",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC20Upgradeable.sol",
+        "../../../utils/ContextUpgradeable.sol",
+        "../../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20BurnableUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol": {
+      "lastModificationDate": 1682722800112,
+      "contentHash": "e1c3d956590a38221ae41a64448beace",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./draft-ERC20PermitUpgradeable.sol",
+        "../../../utils/math/MathUpgradeable.sol",
+        "../../../governance/utils/IVotesUpgradeable.sol",
+        "../../../utils/math/SafeCastUpgradeable.sol",
+        "../../../utils/cryptography/ECDSAUpgradeable.sol",
+        "../../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20VotesUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1682722800139,
+      "contentHash": "fc5844e59776a976987884e4d9814c7d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1682722800066,
+      "contentHash": "228f256dbb21393bc9ad02648e222f74",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/access/IAccessControlEnumerableUpgradeable.sol": {
+      "lastModificationDate": 1682722800124,
+      "contentHash": "528e2ae40c0c6471d72356f811661545",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/IAccessControlEnumerableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAccessControlUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAccessControlEnumerableUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol": {
+      "lastModificationDate": 1682722800065,
+      "contentHash": "1e9b13e33c8524e33d22f3f1239efe5c",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAccessControlUpgradeable.sol",
+        "../utils/ContextUpgradeable.sol",
+        "../utils/StringsUpgradeable.sol",
+        "../utils/introspection/ERC165Upgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControlUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/structs/EnumerableSetUpgradeable.sol": {
+      "lastModificationDate": 1682722800099,
+      "contentHash": "fa4281087059a476cafc8026406eba94",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/structs/EnumerableSetUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSetUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/access/IAccessControlUpgradeable.sol": {
+      "lastModificationDate": 1682722800124,
+      "contentHash": "21b43d1337ebc77c11da3cbe3fd65316",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/IAccessControlUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAccessControlUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1682722800069,
+      "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol": {
+      "lastModificationDate": 1682722800152,
+      "contentHash": "3805d0267faeda96624b50a67ca89f08",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./math/MathUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StringsUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol": {
+      "lastModificationDate": 1682722800107,
+      "contentHash": "5f2d8b81c0ff5bd2047b4846c20b998d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165Upgradeable.sol",
+        "../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Upgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol": {
+      "lastModificationDate": 1682722800143,
+      "contentHash": "469f71655418cc5f328fcc9bfdf10e9a",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MathUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol": {
+      "lastModificationDate": 1682722800130,
+      "contentHash": "d6ecf203a5e72c845be9bbf2f304a289",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165Upgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol": {
+      "lastModificationDate": 1682722800131,
+      "contentHash": "9efcd5467a7f0bf533910ee8a267adb2",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20MetadataUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol": {
+      "lastModificationDate": 1682722800131,
+      "contentHash": "a9ed3c7bc7d9ebb5e34f20829274f088",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Upgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol": {
+      "lastModificationDate": 1682722800098,
+      "contentHash": "4022a2f2e92f5c281d1a2cdae10a9e6b",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ECDSAUpgradeable.sol",
+        "../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EIP712Upgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol": {
+      "lastModificationDate": 1682722800111,
+      "contentHash": "3731d62752408e56578b89ac293659c6",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Upgradeable.sol",
+        "./extensions/IERC20MetadataUpgradeable.sol",
+        "../../utils/ContextUpgradeable.sol",
+        "../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Upgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/governance/utils/IVotesUpgradeable.sol": {
+      "lastModificationDate": 1682722800141,
+      "contentHash": "432a27bbcb26badb3d40e9fb214d09f9",
+      "sourceName": "@openzeppelin/contracts-upgradeable/governance/utils/IVotesUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IVotesUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol": {
+      "lastModificationDate": 1682722800149,
+      "contentHash": "8565f9d83dfbed34d9ff896c02e23ae7",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeCastUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-ERC20PermitUpgradeable.sol": {
+      "lastModificationDate": 1682722800095,
+      "contentHash": "8bce39d1c92a8a00597c31ef2fe40eb1",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-ERC20PermitUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./draft-IERC20PermitUpgradeable.sol",
+        "../ERC20Upgradeable.sol",
+        "../../../utils/cryptography/ECDSAUpgradeable.sol",
+        "../../../utils/cryptography/EIP712Upgradeable.sol",
+        "../../../utils/CountersUpgradeable.sol",
+        "../../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20PermitUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol": {
+      "lastModificationDate": 1682722800070,
+      "contentHash": "2e908c762a799baea365e68a50500e2c",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CountersUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-IERC20PermitUpgradeable.sol": {
+      "lastModificationDate": 1682722800096,
+      "contentHash": "afab576c4d1f55fbf293a0daf3826e31",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-IERC20PermitUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20PermitUpgradeable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/base/ERC20SignatureMint.sol": {
+      "lastModificationDate": 1682722800197,
+      "contentHash": "dbfc5040bca849e317721d2fef96bced",
+      "sourceName": "@thirdweb-dev/contracts/base/ERC20SignatureMint.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20Base.sol",
+        "../extension/PrimarySale.sol",
+        "../extension/SignatureMintERC20.sol",
+        "../lib/CurrencyTransferLib.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20SignatureMint"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/PrimarySale.sol": {
+      "lastModificationDate": 1682722800228,
+      "contentHash": "80675d20aff40013d08dbb2be65c6a39",
+      "sourceName": "@thirdweb-dev/contracts/extension/PrimarySale.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IPrimarySale.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PrimarySale"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/SignatureMintERC20.sol": {
+      "lastModificationDate": 1682722800232,
+      "contentHash": "4af95d25dc568a3d2ff269875a7671b2",
+      "sourceName": "@thirdweb-dev/contracts/extension/SignatureMintERC20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/ISignatureMintERC20.sol",
+        "../openzeppelin-presets/utils/cryptography/EIP712.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignatureMintERC20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/ISignatureMintERC20.sol": {
+      "lastModificationDate": 1682722800220,
+      "contentHash": "3504e4233c08b956878521e35b25bebf",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/ISignatureMintERC20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ISignatureMintERC20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/Permissions.sol": {
+      "lastModificationDate": 1682722800227,
+      "contentHash": "e1c74a2817242b46554a9664c1019c12",
+      "sourceName": "@thirdweb-dev/contracts/extension/Permissions.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IPermissions.sol",
+        "../lib/TWStrings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Permissions"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IPermissions.sol": {
+      "lastModificationDate": 1682722800219,
+      "contentHash": "ef35644c1d475faa91ee1d776c69bf81",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IPermissions.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPermissions"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IPermissionsEnumerable.sol": {
+      "lastModificationDate": 1682722800219,
+      "contentHash": "ff6b5ef2ffcc2863fe5e113927f29c79",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IPermissionsEnumerable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPermissions.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPermissionsEnumerable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/PermissionsEnumerable.sol": {
+      "lastModificationDate": 1682722800227,
+      "contentHash": "590e25b81efc9a3a059e69c0c2a004f2",
+      "sourceName": "@thirdweb-dev/contracts/extension/PermissionsEnumerable.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IPermissionsEnumerable.sol",
+        "./Permissions.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PermissionsEnumerable"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/ERC721AVirtualApprove.sol": {
+      "lastModificationDate": 1682722800199,
+      "contentHash": "f054402d1c5604e53fa95b201a07aab4",
+      "sourceName": "@thirdweb-dev/contracts/eip/ERC721AVirtualApprove.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IERC721A.sol",
+        "./interface/IERC721Receiver.sol",
+        "../lib/TWAddress.sol",
+        "../openzeppelin-presets/utils/Context.sol",
+        "../lib/TWStrings.sol",
+        "./ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ERC721A"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/ERC165.sol": {
+      "lastModificationDate": 1682722800194,
+      "contentHash": "e4fa0042febfbf7ba6686dd4d1f5da9a",
+      "sourceName": "@thirdweb-dev/contracts/eip/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/interface/IERC721A.sol": {
+      "lastModificationDate": 1682722800213,
+      "contentHash": "d6a92ea3d2c0a4fb60312bbe508377ce",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC721A.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol",
+        "./IERC721Metadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IERC721A"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/interface/IERC721Receiver.sol": {
+      "lastModificationDate": 1682722800214,
+      "contentHash": "592df588492d45fdcf46b3cb608c0fbf",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/interface/IERC165.sol": {
+      "lastModificationDate": 1682722800213,
+      "contentHash": "4ab7601799d3c6f785e6a6163975ea66",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/interface/IERC721Metadata.sol": {
+      "lastModificationDate": 1682722800214,
+      "contentHash": "58a1ebd2d67c09beae43297339f63dcc",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/interface/IERC721.sol": {
+      "lastModificationDate": 1682722800213,
+      "contentHash": "6f25087cd5adc77b5785a8add92b4c5c",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/eip/interface/IERC2981.sol": {
+      "lastModificationDate": 1682722800213,
+      "contentHash": "a933ad249f022d6c8a90ecd7cb101c11",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC2981.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC2981"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IRoyalty.sol": {
+      "lastModificationDate": 1682722800219,
+      "contentHash": "966f9d25d48168c2be17be2edbd244bd",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IRoyalty.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../eip/interface/IERC2981.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IRoyalty"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/Royalty.sol": {
+      "lastModificationDate": 1682722800230,
+      "contentHash": "3306c197f6683f94584e48d87bd479e1",
+      "sourceName": "@thirdweb-dev/contracts/extension/Royalty.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IRoyalty.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Royalty"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/base/ERC721Base.sol": {
+      "lastModificationDate": 1682722800199,
+      "contentHash": "f4f2d7efb708e7b023ac959f6bb2e923",
+      "sourceName": "@thirdweb-dev/contracts/base/ERC721Base.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../eip/ERC721AVirtualApprove.sol",
+        "../extension/ContractMetadata.sol",
+        "../extension/Multicall.sol",
+        "../extension/Ownable.sol",
+        "../extension/Royalty.sol",
+        "../extension/BatchMintMetadata.sol",
+        "../extension/DefaultOperatorFilterer.sol",
+        "../lib/TWStrings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721Base"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/BatchMintMetadata.sol": {
+      "lastModificationDate": 1682722800177,
+      "contentHash": "75c9ed022f5162abeeb3110b9bf26234",
+      "sourceName": "@thirdweb-dev/contracts/extension/BatchMintMetadata.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BatchMintMetadata"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/DefaultOperatorFilterer.sol": {
+      "lastModificationDate": 1682722800179,
+      "contentHash": "54246fa3cf3d58675a9b4b169f3785c3",
+      "sourceName": "@thirdweb-dev/contracts/extension/DefaultOperatorFilterer.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OperatorFilterer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DefaultOperatorFilterer"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/OperatorFilterer.sol": {
+      "lastModificationDate": 1682722800225,
+      "contentHash": "e86b90ebd404da318c893760268ac29c",
+      "sourceName": "@thirdweb-dev/contracts/extension/OperatorFilterer.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IOperatorFilterRegistry.sol",
+        "./OperatorFilterToggle.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OperatorFilterer"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/OperatorFilterToggle.sol": {
+      "lastModificationDate": 1682722800225,
+      "contentHash": "0c5604a988d4cfcb9e41363af6fc478e",
+      "sourceName": "@thirdweb-dev/contracts/extension/OperatorFilterToggle.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IOperatorFilterToggle.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OperatorFilterToggle"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IOperatorFilterRegistry.sol": {
+      "lastModificationDate": 1682722800217,
+      "contentHash": "620f09ede58daac72a25efac20de103f",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IOperatorFilterRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOperatorFilterRegistry"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IOperatorFilterToggle.sol": {
+      "lastModificationDate": 1682722800218,
+      "contentHash": "2d013545690f357d495215429a41300b",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IOperatorFilterToggle.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOperatorFilterToggle"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/contracts/RewardNFT.sol": {
+      "lastModificationDate": 1682729733916,
+      "contentHash": "86f845d75960e4c19eb8a23b2e0a0ae1",
+      "sourceName": "contracts/RewardNFT.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@thirdweb-dev/contracts/base/ERC721Base.sol",
+        "@thirdweb-dev/contracts/extension/PermissionsEnumerable.sol",
+        "@thirdweb-dev/contracts/extension/Multicall.sol",
+        "@thirdweb-dev/contracts/extension/interface/IClaimableERC721.sol",
+        "@thirdweb-dev/contracts/extension/ContractMetadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "RewardNFT"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IClaimableERC721.sol": {
+      "lastModificationDate": 1682722800207,
+      "contentHash": "82b3ca78cae6b0a51f611ec2b073b2f3",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IClaimableERC721.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IClaimableERC721"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/base/Staking721Base.sol": {
+      "lastModificationDate": 1682722800235,
+      "contentHash": "2cec0b235e6247a21bf6b4bfde43e7c9",
+      "sourceName": "@thirdweb-dev/contracts/base/Staking721Base.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../extension/ContractMetadata.sol",
+        "../extension/Multicall.sol",
+        "../extension/Ownable.sol",
+        "../extension/Staking721.sol",
+        "../eip/ERC165.sol",
+        "../eip/interface/IERC20.sol",
+        "../eip/interface/IERC721Receiver.sol",
+        "../lib/CurrencyTransferLib.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Staking721Base"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/Staking721.sol": {
+      "lastModificationDate": 1682722800234,
+      "contentHash": "2d0e7187a49bac34b185d73925042307",
+      "sourceName": "@thirdweb-dev/contracts/extension/Staking721.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../openzeppelin-presets/security/ReentrancyGuard.sol",
+        "../openzeppelin-presets/utils/math/SafeMath.sol",
+        "../eip/interface/IERC721.sol",
+        "./interface/IStaking721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "Staking721"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/node_modules/@thirdweb-dev/contracts/extension/interface/IStaking721.sol": {
+      "lastModificationDate": 1682722800221,
+      "contentHash": "0c60cb54c5c77d895bee3bce649362f5",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IStaking721.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.11"
+      ],
+      "artifacts": [
+        "IStaking721"
+      ]
+    },
+    "/Users/arman/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1681309502073,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/arman/node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
+      "lastModificationDate": 1681309502112,
+      "contentHash": "2337f0279507b5edf14a07067adf0d05",
+      "sourceName": "@openzeppelin/contracts/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1682732254759,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
+      "lastModificationDate": 1682732254846,
+      "contentHash": "2337f0279507b5edf14a07067adf0d05",
+      "sourceName": "@openzeppelin/contracts/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/contracts/Token.sol": {
+      "lastModificationDate": 1682734083603,
+      "contentHash": "f89c899fef319a98896d4c757230863c",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@thirdweb-dev/contracts/base/ERC20Base.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/Users/arman/erc20-staking-app/staking-contract/contracts/Staking.sol": {
+      "lastModificationDate": 1682734466274,
+      "contentHash": "398ad47346012a96a51fe85ec97d68da",
+      "sourceName": "contracts/Staking.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@thirdweb-dev/contracts/base/Staking721Base.sol",
+        "@thirdweb-dev/contracts/base/ERC721Base.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Staking"
+      ]
+    }
+  }
+}
